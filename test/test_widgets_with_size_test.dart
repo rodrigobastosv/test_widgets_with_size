@@ -21,6 +21,8 @@ void main() {
                     expect(size.width, kTestDefaultWidth);
                   },
                 ),
+                height: 1200,
+                width: 800,
               ),
             ),
           );
