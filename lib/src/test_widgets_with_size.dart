@@ -17,6 +17,7 @@ class SizedWidget extends StatelessWidget {
     this.width = kTestDefaultWidth,
     this.height = kTestDefaultHeight,
     this.devicePixelRatio = 1.0,
+    this.textScaleFactor = 1.0,
   }) : super(key: key);
 
   /// Widget under testing
@@ -31,12 +32,16 @@ class SizedWidget extends StatelessWidget {
   /// Desired Pixel Ratio
   final double devicePixelRatio;
 
+  /// Desired Text Scale Factor
+  final double textScaleFactor;
+
   @override
   Widget build(BuildContext context) {
     return MediaQuery(
       data: MediaQueryData(
         size: Size(width, height),
         devicePixelRatio: devicePixelRatio,
+        textScaleFactor: textScaleFactor,
       ),
       child: widget,
     );
@@ -50,6 +55,7 @@ class DeviceWidget extends StatelessWidget {
     Key? key,
     required this.widget,
     required this.device,
+    this.textScaleFactor = 1.0,
   }) : super(key: key);
 
   /// Widget under testing
@@ -58,12 +64,16 @@ class DeviceWidget extends StatelessWidget {
   /// Device that's beeing targeted. Pick any from the [Device] enum.
   final Device device;
 
+  /// Desired Text Scale Factor
+  final double textScaleFactor;
+
   @override
   Widget build(BuildContext context) {
     return MediaQuery(
       data: MediaQueryData(
         size: getDeviceSize(device),
         devicePixelRatio: getDevicePixelRatio(device),
+        textScaleFactor: textScaleFactor,
       ),
       child: widget,
     );
