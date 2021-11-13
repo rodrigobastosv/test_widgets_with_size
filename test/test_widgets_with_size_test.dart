@@ -14,7 +14,7 @@ void main() {
           await tester.pumpWidget(
             MaterialApp(
               home: SizedWidget(
-                widget: TestWidget(
+                widget: _TestWidget(
                   onPressed: (context) {
                     final size = MediaQuery.of(context).size;
                     expect(size.height, kTestDefaultHeight);
@@ -37,7 +37,7 @@ void main() {
           await tester.pumpWidget(
             MaterialApp(
               home: SizedWidget(
-                widget: TestWidget(
+                widget: _TestWidget(
                   onPressed: (context) {
                     final size = MediaQuery.of(context).size;
                     expect(size.height, 800);
@@ -65,7 +65,7 @@ void main() {
           await tester.pumpWidget(
             MaterialApp(
               home: DeviceWidget(
-                widget: TestWidget(
+                widget: _TestWidget(
                   onPressed: (context) {
                     final deviceSize = getDeviceSize(Device.iPhone12ProMax);
                     final size = MediaQuery.of(context).size;
@@ -85,8 +85,8 @@ void main() {
   );
 }
 
-class TestWidget extends StatelessWidget {
-  const TestWidget({
+class _TestWidget extends StatelessWidget {
+  const _TestWidget({
     Key? key,
     required this.onPressed,
   }) : super(key: key);
