@@ -43,7 +43,7 @@ class SizedWidget extends StatelessWidget {
   }
 }
 
-/// Widget that make it possible to simulate any given Device from the list 
+/// Widget that make it possible to simulate any given Device from the list
 /// of [Device]'s
 class DeviceWidget extends StatelessWidget {
   const DeviceWidget({

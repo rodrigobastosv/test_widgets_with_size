@@ -1,6 +1,6 @@
 name: test_widgets_with_size
 description: A flutter utilitary package to make easier the process of testing widgets on diferent device sizes
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/rodrigobastosv/test_widgets_with_size
 
 environment:
