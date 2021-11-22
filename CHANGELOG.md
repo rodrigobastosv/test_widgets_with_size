@@ -1,3 +1,7 @@
+## 1.0.1+1
+
+* Exposing Devices enum on the barel file
+
 ## 1.0.1
 
 * Adding possibility to pass own text scale factor
