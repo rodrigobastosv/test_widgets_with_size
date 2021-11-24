@@ -1,3 +1,5 @@
+<a href="https://www.buymeacoffee.com/rodrigobastosv" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 #  Introduction
 
 This package was created to make it easy to test widgets on different sizes of devices. It provides a simple API where you can decide what height and screen width you want the tests to run on. You also have the option to choose a specific device to test your widgets on. The screen size and pixel density will suit the chosen device
