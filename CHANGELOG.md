@@ -1,3 +1,7 @@
+## 1.0.1+2
+
+* Adjusting README
+
 ## 1.0.1+1
 
 * Exposing Devices enum on the barel file
