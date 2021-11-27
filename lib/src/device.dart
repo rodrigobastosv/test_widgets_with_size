@@ -1,3 +1,5 @@
+/// The package comes with a list of pre defined devices.
+/// This is not an exaustive list. We can add more anytime.
 enum Device {
   iPhone12ProMax,
   iPhone12Pro,

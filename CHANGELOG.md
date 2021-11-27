@@ -1,3 +1,7 @@
+## 1.0.1+3
+
+* Adding documentation
+
 ## 1.0.1+2
 
 * Adjusting README

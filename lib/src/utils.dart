@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'device.dart';
 
+/// Given the Device, returns its pixel ratio
 double getDevicePixelRatio(Device device) {
   switch (device) {
     case Device.iPhone12ProMax:
@@ -131,6 +132,7 @@ double getDevicePixelRatio(Device device) {
   }
 }
 
+/// Given the Device, returns its size
 Size getDeviceSize(Device device) {
   switch (device) {
     case Device.iPhone12ProMax:
