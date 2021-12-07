@@ -1,3 +1,7 @@
+## 1.0.1+4
+
+* Improving documentation
+
 ## 1.0.1+3
 
 * Adding documentation

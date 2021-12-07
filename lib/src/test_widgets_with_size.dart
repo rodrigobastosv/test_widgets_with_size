@@ -11,6 +11,7 @@ const kTestDefaultHeight = 600.0;
 
 /// Widget that make it possible to simulate any given screen size
 class SizedWidget extends StatelessWidget {
+  /// The only required params is the widget under testing
   const SizedWidget({
     Key? key,
     required this.widget,
@@ -51,6 +52,7 @@ class SizedWidget extends StatelessWidget {
 /// Widget that make it possible to simulate any given Device from the list
 /// of [Device]'s
 class DeviceWidget extends StatelessWidget {
+  /// The only required params are the widget under testing and the desired device
   const DeviceWidget({
     Key? key,
     required this.widget,
